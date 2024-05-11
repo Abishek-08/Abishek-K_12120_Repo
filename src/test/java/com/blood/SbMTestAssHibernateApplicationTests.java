@@ -24,8 +24,8 @@ class SbMTestAssHibernateApplicationTests {
 	@Autowired
 	StockService stkServ;
 	
-	     @Test
-		//@Ignore
+	        //@Test
+		@Ignore
 		void test_InsertStock() {
 			BloodDonor donor = new BloodDonor();
 			donor.setDnrId(8);
