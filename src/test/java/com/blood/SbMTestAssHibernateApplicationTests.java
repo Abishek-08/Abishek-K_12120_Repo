@@ -28,7 +28,7 @@ class SbMTestAssHibernateApplicationTests {
 		//@Ignore
 		void test_InsertStock() {
 			BloodDonor donor = new BloodDonor();
-			donor.setDnrId(5);
+			donor.setDnrId(11);
 			
 			BloodStock stock = new BloodStock();
 			stock.setBlCount("190");
